@@ -95,11 +95,11 @@ public class Homework {
     }
 
     public static long getFilesTotalSize(File[] files) {
-        long size = 0;
+        long totalSize = 0;
         for (File file : files) {
-            size += file.getSize();
+            totalSize += file.getSize();
         }
-        return size;
+        return totalSize;
     }
 
     public static void startRace(Transport[] vehicles) {
