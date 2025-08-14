@@ -1,7 +1,9 @@
-import payment.CreditCardPayment;
-import playable.Playable;
-import playable.Rated;
-import playable.Song;
+package main;
+
+import main.payment.CreditCardPayment;
+import main.playable.Playable;
+import main.playable.Rated;
+import main.playable.Song;
 
 import java.math.BigDecimal;
 

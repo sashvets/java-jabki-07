@@ -1,4 +1,4 @@
-package playable;
+package main.playable;
 
 public interface Rated {
 
